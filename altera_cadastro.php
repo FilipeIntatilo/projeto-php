@@ -13,7 +13,7 @@ if ($conecta->connect_error) {
 echo "";
 
 $email = $_POST['email'];
-$senha = $_POST['senha'];
+$senha = $_POST['senha']; 
 
 
 $sql = "UPDATE Usuario SET senha='$senha' WHERE email='$email'";
