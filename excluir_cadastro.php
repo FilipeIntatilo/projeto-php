@@ -1,5 +1,7 @@
+<!--Projeto desenvolvido pelos alunos Julio Cesar Sousa Melo e Filipe de Sousa Lima -->
+<!--Tecnologia em Análise e Desenvolvimento de Sistemas/Noturno-->
+<!-- //PARTE FILIPE-->
 <?php
-
 $nome_servidor = "localhost";
 $nome_usuario = "root";
 $senha = "";
@@ -16,7 +18,7 @@ echo "";
 
 $sql = "DELETE FROM Usuario WHERE email='$email'";
 if ($conecta->query($sql) === TRUE) {
-     echo "<script> 
+    echo "<script> 
                 alert('A conta referente ao email informado foi apagada com sucesso');
                 window.location.href = 'index_Excluir.html';
            </script>";

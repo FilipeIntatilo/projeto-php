@@ -1,3 +1,6 @@
+<!--Projeto desenvolvido pelos alunos Julio Cesar Sousa Melo e Filipe de Sousa Lima -->
+<!--Tecnologia em Análise e Desenvolvimento de Sistemas/Noturno-->
+<!-- //PARTE FILIPE-->
 <?php
 session_start();
 $nome_servidor = "localhost";
@@ -28,8 +31,9 @@ if ($resultado->num_rows > 0) {
     session_destroy();
     echo "<script> 
                 alert('Login ou senha incorreto');
-                window.location.href = 'index_Login.html';
+                window.location.href = 'index.html';
            </script>";
 }
 $conecta->close();
 ?>
+

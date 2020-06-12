@@ -1,5 +1,7 @@
+<!--Projeto desenvolvido pelos alunos Julio Cesar Sousa Melo e Filipe de Sousa Lima -->
+<!--Tecnologia em Análise e Desenvolvimento de Sistemas/Noturno-->
+<!-- //PARTE FILIPE-->
 <?php
-
 $nome_servidor = "localhost";
 $nome_usuario = "root";
 $senha = "";
@@ -19,11 +21,8 @@ echo "Conexão realizada com sucesso";
 //echo "Erro na criação do banco de dados: " . $conecta->error."<br>";
 //}
 //$conecta->close(); 
-
-
-
 //$sql = "CREATE TABLE Usuario(
- //id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+//id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
 //email VARCHAR(50) NOT NULL,
 //senha VARCHAR(20)
 //)";
@@ -33,4 +32,5 @@ echo "Conexão realizada com sucesso";
 //echo "Erro na criação da tabela Usuario: " . $conecta->error."<br>";
 //}
 //$conecta->close();
-//?>
+//
+?>

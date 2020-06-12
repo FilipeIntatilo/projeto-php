@@ -1,5 +1,7 @@
+<!--Projeto desenvolvido pelos alunos Julio Cesar Sousa Melo e Filipe de Sousa Lima -->
+<!--Tecnologia em Análise e Desenvolvimento de Sistemas/Noturno-->
+<!-- //PARTE FILIPE-->
 <?php
-
 $nome_servidor = "localhost";
 $nome_usuario = "root";
 $senha = "";
@@ -18,9 +20,9 @@ $senha = $_POST['senha'];
 $sql = "INSERT INTO Usuario (email, senha)
 VALUES ('$email', '$senha')";
 if ($conecta->query($sql) === TRUE) {
-   echo "<script> 
+    echo "<script> 
                 alert('Usuário cadastrado com sucesso');
-                window.location.href = 'index_Login.html';
+                window.location.href = 'index.html';
            </script>";
     
 } else {

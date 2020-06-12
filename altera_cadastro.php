@@ -1,3 +1,6 @@
+<!--Projeto desenvolvido pelos alunos Julio Cesar Sousa Melo e Filipe de Sousa Lima -->
+<!--Tecnologia em Análise e Desenvolvimento de Sistemas/Noturno-->
+<!-- //PARTE FILIPE-->
 <?php
 $nome_servidor = "localhost";
 $nome_usuario = "root";
@@ -13,17 +16,17 @@ if ($conecta->connect_error) {
 echo "";
 
 $email = $_POST['email'];
-$senha = $_POST['senha']; 
+$senha = $_POST['senha'];
 
 
 $sql = "UPDATE Usuario SET senha='$senha' WHERE email='$email'";
 if ($conecta->query($sql) === TRUE) {
-     echo "<script> 
+    echo "<script> 
                 alert('Senha atualizada com sucesso');
-                window.location.href = 'index_Login.html';
+                window.location.href = 'index.html';
            </script>";
 } else {
-    
+
     echo "<script> 
                 alert('Erro na atualização de senha: " . $conecta->error . "<br>');
                 window.location.href = 'index_Alterar.html';
