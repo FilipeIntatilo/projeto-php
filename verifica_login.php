@@ -17,8 +17,8 @@ if ($conecta->connect_error) {
 }
 echo "";
 
-$email = $_POST['email'];
-$senha = $_POST['senha'];
+$email = isset($_POST['email'])?$_POST['email']:"";
+$senha = isset($_POST['senha'])?$_POST['senha']:"";
 
 $tenta_achar = "SELECT * FROM Usuario WHERE email='$email' AND senha='$senha' ";
 $resultado = $conecta->query($tenta_achar);
