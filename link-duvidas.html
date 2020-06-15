@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<!--Projeto desenvolvido pelos alunos Julio Cesar Sousa Melo e Filipe de Sousa Lima -->
+<!--Tecnologia em Análise e Desenvolvimento de Sistemas/Noturno-->
+<!-- //PARTE JULIO-->
+<html>
+    <head>
+        <title>Code Friends</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+        
+         
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
+		<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+        <link href="vendor/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css"/>
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/animate.css" rel="stylesheet">
+        <link href="vendor/swiper/css/swiper.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/layout.min.css" rel="stylesheet" type="text/css"/>
+        
+        <link rel="shortcut icon" href="images/favicon.ico" />  <!-- Aqui está o Favicon -->
+
+        <link rel="stylesheet" href="css/layout.css" type="text/css">
+
+        
+         <style> 
+      *{
+      box-sizing: border-box;
+      }
+      html, body {
+      min-height: 100vh;
+      padding: 0;
+      margin: 0;
+      font-family: Roboto, Arial, sans-serif;
+      font-size: 14px; 
+      color: #666;
+      }
+      input, textarea { 
+      outline: none;
+      }
+      body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px; 
+      background: #0B0B61;   //Cor de Fundo geral
+      }
+      h1 {
+      margin-top: 0;
+      font-weight: 500;
+      }
+      form {
+      position: relative;
+      width: 80%;
+      border-radius: 30px;
+      background: #fff;
+      }
+      .form-left-decoration,
+      .form-right-decoration {
+      content: "";
+      position: absolute;
+      width: 50px;
+      height: 20px;
+      border-radius: 20px;
+      background: #DF7401;    //Cor de Fundo
+      }
+      .form-left-decoration {
+      bottom: 60px;
+      left: -30px;
+      }
+      .form-right-decoration {
+      top: 60px;
+      right: -30px;
+      }
+      .form-left-decoration:before,
+      .form-left-decoration:after,
+      .form-right-decoration:before,
+      .form-right-decoration:after {
+      content: "";
+      position: absolute;
+      width: 50px;
+      height: 20px;
+      border-radius: 30px;
+      background: #fff;
+      }
+      .form-left-decoration:before {
+      top: -20px;
+      }
+      .form-left-decoration:after {
+      top: 20px;
+      left: 10px;
+      }
+      .form-right-decoration:before {
+      top: -20px;
+      right: 0;
+      }
+      .form-right-decoration:after {
+      top: 20px;
+      right: 10px;
+      }
+      .circle {
+      position: absolute;
+      bottom: 80px;
+      left: -55px;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: #fff;
+      }
+      .form-inner {
+      padding: 40px;
+      }
+      .form-inner input,
+      .form-inner textarea {
+      display: block;
+      width: 100%;
+      padding: 15px;
+      margin-bottom: 10px;
+      border: none;
+      border-radius: 20px;
+      background: #d0dfe8;
+      }
+      .form-inner textarea {
+      resize: none;
+      }
+      button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 20px;
+      border-radius: 20px;
+      border: none;
+      border-bottom: 4px solid #B45F04;
+      background: #DF7401;   //cor do botao enviar 
+      font-size: 16px; 
+      font-weight: 400;
+      color: #fff;
+      }
+      button:hover {
+      background: #FAAC58;   //cor que apareçe quando passa por cima
+      } 
+      @media (min-width: 568px) {
+      form {
+      width: 60%;
+      }
+      }
+      
+                     
+    </style>
+    </head>
+    <body>
+        
+        <header class="header navbar-fixed-top">
+                <nav class="navbar" role="navigation">
+                  <div class="container">
+                        <div class="menu-container js_nav-item">
+                          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+                              <span class="sr-only">Toggle navigation</span>
+                              <span class="toggle-icon"></span>
+                          </button>
+
+                            <div class="logo">
+                              <a class="logo-wrap" href="#body">
+                                   <!-- <img class="logo-img logo-img-main" src="images/log-site.png" alt="Logo Code Friends"> 
+                                   <img class="logo-img logo-img-active" src="images/log-site.png" alt="Logo Code Friends">  -->
+                              </a>
+                          </div>
+                      </div>
+
+                      <div class="collapse navbar-collapse nav-collapse">
+                          <div class="menu-container">
+                              <ul class="nav navbar-nav navbar-nav-right">
+
+
+                                 <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="site_Principal.php">Home</a></li>
+                                  <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="link-pagina-html.html">Html</a></li>
+                                  <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="link-pagina-php.html">Php</a></li>
+                                  <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="link-pagina-java.html">Java</a></li>
+                                  <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="link-duvidas.html">Dúvidas</a></li>
+                                  
+                                  <script src="https://kit.fontawesome.com/5a9891bfba.js" crossorigin="anonymous"></script>
+
+                                  <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="Logout.php"><i class="fas fa-sign-out-alt">Logout</i></a></li>
+
+                              </ul>
+                          </div>
+                      </div>
+
+                  </div>
+                </nav>
+            </header>
+        
+        
+        <form action="recebeDuvidas.php" method="post" class="decor">
+          <div class="form-left-decoration"></div>
+          <div class="form-right-decoration"></div>
+          <div class="circle"></div>
+          <div class="form-inner">
+              
+            <h1>Dúvidas ? Fale Conosco</h1>
+            <input type="text" placeholder="Nome" name="nomeUsuario" required>
+            <input type="email" placeholder="Email" name="email" required>
+            <textarea placeholder="Mensagem..." rows="5" name="comentario" required></textarea>
+            
+            <button type="submit" href="link-duvidas.html">Enviar</button>
+                
+          </div>
+        </form>
+    </body>
+</html>

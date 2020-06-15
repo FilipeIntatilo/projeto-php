@@ -14,11 +14,12 @@ if ($conecta->connect_error) {
 }
 echo "";
 
+$nomeUsuario = $_POST['nomeUsuario'];
 $email = $_POST['email'];
 $senha = $_POST['senha'];
 
-$sql = "INSERT INTO Usuario (email, senha)
-VALUES ('$email', '$senha')";
+$sql = "INSERT INTO Usuario (nome, email, senha)
+VALUES ('$nomeUsuario', '$email', '$senha')";
 if ($conecta->query($sql) === TRUE) {
     echo "<script> 
                 alert('Usuário cadastrado com sucesso');

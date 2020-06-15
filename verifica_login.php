@@ -20,12 +20,13 @@ echo "";
 $email = isset($_POST['email'])?$_POST['email']:"";
 $senha = isset($_POST['senha'])?$_POST['senha']:"";
 
-$tenta_achar = "SELECT * FROM Usuario WHERE email='$email' AND senha='$senha' ";
+$tenta_achar = "SELECT nome FROM Usuario WHERE email='$email' AND senha='$senha' ";
 $resultado = $conecta->query($tenta_achar);
 if ($resultado->num_rows > 0) {
     $_SESSION['email'] = $email;
     $_SESSION['senha'] = $senha;
-    header('location:site_Principal.html');
+
+    header('location:site_Principal.php');
 } else {
     session_unset(); //remove todas as variáveis de sessão
     session_destroy();

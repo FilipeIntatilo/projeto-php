@@ -1,6 +1,9 @@
 {
     "elements": {},
     "attributes": {
+        "href": {
+            "context": "button"
+        },
         "aria-multiselectable": {}
     }
 }
