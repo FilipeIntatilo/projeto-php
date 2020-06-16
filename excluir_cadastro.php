@@ -17,7 +17,7 @@ if ($conecta->connect_error) {
 }
 echo "";
 
-$sql = "DELETE FROM Usuario WHERE email='$email'";
+$sql = "DELETE FROM usuario WHERE email='$email'";
 if ($conecta->query($sql) === TRUE) {
     echo "<script> 
                 alert('A conta referente ao email informado foi apagada com sucesso');
@@ -26,6 +26,7 @@ if ($conecta->query($sql) === TRUE) {
 } else {
     echo "Erro ao apagar o registro: " . $conecta->error . "<br>";
 }
+mysqli_set_charset($conecta, "utf8");
 $conecta->close();
 ?>
  

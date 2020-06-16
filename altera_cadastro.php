@@ -20,7 +20,7 @@ $email = $_POST['email'];
 $senha = $_POST['senha'];
 
 
-$sql = "UPDATE Usuario SET senha='$senha' WHERE email='$email'";
+$sql = "UPDATE usuario SET senha='$senha' WHERE email='$email'";
 if ($conecta->query($sql) === TRUE) {
     echo "<script> 
                 alert('Senha atualizada com sucesso');
@@ -33,5 +33,6 @@ if ($conecta->query($sql) === TRUE) {
                 window.location.href = 'index_Alterar.html';
            </script>";
 }
+mysqli_set_charset($conecta, "utf8");
 $conecta->close();
 ?> 

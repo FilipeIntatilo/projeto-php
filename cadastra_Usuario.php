@@ -19,7 +19,7 @@ $nomeUsuario = $_POST['nomeUsuario'];
 $email = $_POST['email'];
 $senha = $_POST['senha'];
 
-$sql = "INSERT INTO Usuario (nome, email, senha)
+$sql = "INSERT INTO usuario (nome, email, senha)
 VALUES ('$nomeUsuario', '$email', '$senha')";
 if ($conecta->query($sql) === TRUE) {
     echo "<script> 
@@ -34,6 +34,7 @@ if ($conecta->query($sql) === TRUE) {
                 window.location.href = 'index_Cadastro.html';
            </script>";
 }
+mysqli_set_charset($conecta, "utf8");
 $conecta->close();
 ?>
  

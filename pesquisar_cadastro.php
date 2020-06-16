@@ -18,7 +18,7 @@ if ($conecta->connect_error) {
 echo "";
 
 
-$sql = "SELECT * FROM Usuario WHERE email ='$email'";
+$sql = "SELECT * FROM usuario WHERE email ='$email'";
 $resultado = $conecta->query($sql);
 if ($resultado->num_rows > 0) {
     // saída dos dados
@@ -34,5 +34,6 @@ if ($resultado->num_rows > 0) {
                 window.location.href = 'index_Cadastro.html';
            </script>";
 }
+mysqli_set_charset($conecta, "utf8");
 $conecta->close();
 ?>

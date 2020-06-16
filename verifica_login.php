@@ -22,7 +22,7 @@ echo "";
 $email = isset($_POST['email'])?$_POST['email']:"";
 $senha = isset($_POST['senha'])?$_POST['senha']:"";
 
-$tenta_achar = "SELECT nome FROM Usuario WHERE email='$email' AND senha='$senha' ";
+$tenta_achar = "SELECT nome FROM usuario WHERE email='$email' AND senha='$senha' ";
 $resultado = $conecta->query($tenta_achar);
 if ($resultado->num_rows > 0) {
     $_SESSION['email'] = $email;
@@ -37,6 +37,7 @@ if ($resultado->num_rows > 0) {
                 window.location.href = 'index.html';
            </script>";
 }
+mysqli_set_charset($conecta, "utf8");
 $conecta->close();
 ?>
 

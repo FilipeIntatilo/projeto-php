@@ -34,4 +34,5 @@ if ($conecta->query($sql) === TRUE) {
                 window.location.href = 'link-duvidas.html';
            </script>";
 }
+mysqli_set_charset($conecta, "utf8");
 $conecta->close();
