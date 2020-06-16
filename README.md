@@ -1,4 +1,16 @@
-# Projeto de PHP e Banco de Dados 
+# Code Friends
+
+Um projeto de Aplicações Web que integra HTML, CSS, JS, PHP, MySQL. 
+
+# Descrição do Projeto 
+
+Tela de Login com a lógica de CRUD e Controle de Sessão.
+
+A IDE utilizada foi o NetBeans 8.0.2 .
+
+As páginas principais foram construidas em torno de um template externo (gratuito).
+
+A maioria das imagens foram criadas no Photoshop CS6 pelo nossos Desenvolvedores.
 
 # Desenvolvedores:
 
