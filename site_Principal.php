@@ -41,8 +41,8 @@
 
                             <div class="logo">
                               <a class="logo-wrap" href="#body">
-                                   <!-- <img class="logo-img logo-img-main" src="images/log-site.png" alt="Logo Code Friends"> 
-                                   <img class="logo-img logo-img-active" src="images/log-site.png" alt="Logo Code Friends">  -->
+                                    <img class="logo-img logo-img-main" src="images/logo-site-vermelho.png" alt="Logo Code Friends"> 
+                                    <img class="logo-img logo-img-active" src="images/logo-site-vermelho.png" alt="Logo Code Friends"> 
                               </a>
                           </div>
                       </div>
@@ -100,7 +100,7 @@
                     </div>
                 </div>
                 <!-- Final do Carrosel 1 -->
-                
+                <!--
                 <!-- Carrosel 2 -->
                 <div class="item">
                     <img class="img-responsive" src="img/1920x1080/02.jpg" alt="Slider Image">
@@ -224,7 +224,7 @@
                                         </div>
                                         <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
                                             <div class="panel-body">
-                                                O nosso foco é e sempre será a dedição a vocês, caso aja qualquer dúvida sobre os assuntos, se sinta confortável para enviar uma mensagem na aba de  <a href="link-pagina-duvidas.html" target="_blank">DÚVIDAS</a>.
+                                                O nosso foco é e sempre será a dedição a vocês, caso aja qualquer dúvida sobre os assuntos, se sinta confortável para enviar uma mensagem na aba de  <a href="link-duvidas.html" target="_blank">DÚVIDAS</a>.
                                             </div>
                                         </div>
                                     </div>
@@ -258,8 +258,8 @@
                         <div class="margin-b-20">
                             <img class="img-responsive" src="images/imagem-postagem-html.jpg" alt="Latest Products Image">
                         </div>
-                        <h4><a href="#">Saiba o básico para seu primeiro arquivo HTML</a> <span c2lass="text-uppercase margin-l-20">HTML</span></h4>
-                        <p>Saiba como direcionar para outra página HTML ou PHP , com apenas 1 linha de código.</p>
+                        <h4><a href="link-pagina-html.html">Saiba o básico para seu primeiro arquivo HTML</a> <span c2lass="text-uppercase margin-l-20">HTML</span></h4>
+                        <p>Saiba como construir seu primeiro arquivo HTML de forma muito simples.</p>
                         <a class="link" href="link-pagina-html.html">Detalhes</a>
                     </div>
                     <!-- Final da Postagem 1 -->
@@ -269,7 +269,7 @@
                         <div class="margin-b-20">
                             <img class="img-responsive" src="images/imagem-postagem-php.jpg" alt="Latest Products Image">
                         </div>
-                        <h4><a href="#">Redirecionar para outra página HTML ou PHP</a> <span class="text-uppercase margin-l-20">PHP</span></h4>
+                        <h4><a href="link-pagina-php.html">Redirecionar para outra página HTML ou PHP</a> <span class="text-uppercase margin-l-20">PHP</span></h4>
                         <p>Saiba como direcionar para outra página HTML ou PHP , com apenas 1 linha de código.</p>
                         <a class="link" href="link-pagina-php.html">Detalhes</a>
                     </div>
@@ -280,7 +280,7 @@
                         <div class="margin-b-20">
                             <img class="img-responsive" src="images/imagem-postagem-java.jpg" alt="Latest Products Image">
                         </div>
-                        <h4><a href="#">Entenda a lógica de Herança</a> <span class="text-uppercase margin-l-20">Java</span></h4>
+                        <h4><a href="link-pagina-java.html">Entenda a lógica de Herança</a> <span class="text-uppercase margin-l-20">Java</span></h4>
                         <p>Toda pessoa que inicia seus estudos de Java e nunca tinha ouvido falar sobre POO (Programação Orietada a Objeto), já deve ter tido dificuldade em entender como funcionam os Objetos .</p>
                         <a class="link" href="link-pagina-java.html">Detalhes</a>
                     </div>
@@ -386,33 +386,30 @@
                             <!-- Work -->
                             <div class="work work-popup-trigger">
                                 <div class="work-overlay">
-                                    <img class="full-width img-responsive" src="img/397x300/01.jpg" alt="Portfolio Image">
+                                    <img class="full-width img-responsive" src="images/depoimento01.jpg" alt="Portfolio Image">
                                 </div>
+                                
                                 <div class="work-popup-overlay">
                                     <div class="work-popup-content">
-                                        <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                        <a href="javascript:void(0);" class="work-popup-close">FECHAR</a>
                                         <div class="margin-b-30">
-                                            <h3 class="margin-b-5">Art Of Coding</h3>
-                                            <span>Clean &amp; Minimalistic Design</span>
+                                            <h3 class="margin-b-5">Júlio César S.</h3>
+                                            <span>Iniciando na programação</span>
                                         </div>
                                         <div class="row">
                                             <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
                                                 <div class="margin-t-10 sm-margin-t-0">
-                                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                                                    <p>"Esse site me ajudou bastante, pois coloca vários conteúdos de forma simples e de fácil compreensão"</p>
                                                     <ul class="list-inline work-popup-tag">
-                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Strategy,</a></li>
-                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Implementation,</a></li>
-                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Credentials</a></li>
+
                                                     </ul>
                                                 </div>
                                             </div>
                                             <div class="col-sm-4">
                                                 <div class="margin-t-10 sm-margin-t-0">
-                                                    <p class="margin-b-5"><strong>Project Manager:</strong> Boris Becker</p>
-                                                    <p class="margin-b-5"><strong>Executive:</strong> Heike Macatsch</p>
-                                                    <p class="margin-b-5"><strong>Architect:</strong> Oliver Pocher</p>
-                                                    <p class="margin-b-5"><strong>Client:</strong> FairTech</p>
+                                                    <p class="margin-b-5"><strong>Curso:</strong> Ciências da Computação</p>
+                                                    <p class="margin-b-5"><strong>Cidade: </strong> São Paulo</p>
+                                                    <p class="margin-b-5"><strong>Idade: </strong> 22 anos</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -425,33 +422,30 @@
                             <!-- Work -->
                             <div class="work work-popup-trigger">
                                 <div class="work-overlay">
-                                    <img class="full-width img-responsive" src="img/397x300/02.jpg" alt="Portfolio Image">
+                                    <img class="full-width img-responsive" src="images/depoimento02.jpg" alt="Portfolio Image">
                                 </div>
+                                
                                 <div class="work-popup-overlay">
                                     <div class="work-popup-content">
-                                        <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                        <a href="javascript:void(0);" class="work-popup-close">FECHAR</a>
                                         <div class="margin-b-30">
-                                            <h3 class="margin-b-5">Art Of Coding</h3>
-                                            <span>Clean &amp; Minimalistic Design</span>
+                                            <h3 class="margin-b-5">Salvador Pereira</h3>
+                                            <span>7º Semestre</span>
                                         </div>
                                         <div class="row">
                                             <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
                                                 <div class="margin-t-10 sm-margin-t-0">
-                                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                                                    <p>"Esse site foi de grande importância quando eu esquecia alguns detalhes sobre Php."</p>
                                                     <ul class="list-inline work-popup-tag">
-                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Strategy,</a></li>
-                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Implementation,</a></li>
-                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Credentials</a></li>
+
                                                     </ul>
                                                 </div>
                                             </div>
                                             <div class="col-sm-4">
                                                 <div class="margin-t-10 sm-margin-t-0">
-                                                    <p class="margin-b-5"><strong>Project Manager:</strong> Boris Becker</p>
-                                                    <p class="margin-b-5"><strong>Executive:</strong> Heike Macatsch</p>
-                                                    <p class="margin-b-5"><strong>Architect:</strong> Oliver Pocher</p>
-                                                    <p class="margin-b-5"><strong>Client:</strong> Keenthemes</p>
+                                                    <p class="margin-b-5"><strong>Curso:</strong> Sistemas de Informações</p>
+                                                    <p class="margin-b-5"><strong>Cidade: </strong> Rio de Janeiro</p>
+                                                    <p class="margin-b-5"><strong>Idade: </strong> 38 anos</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -464,33 +458,30 @@
                             <!-- Work -->
                             <div class="work work-popup-trigger">
                                 <div class="work-overlay">
-                                    <img class="full-width img-responsive" src="img/397x300/03.jpg" alt="Portfolio Image">
+                                    <img class="full-width img-responsive" src="images/depoimento03.jpg" alt="Portfolio Image">
                                 </div>
+                                
                                 <div class="work-popup-overlay">
                                     <div class="work-popup-content">
-                                        <a href="javascript:void(0);" class="work-popup-close">Hide</a>
+                                        <a href="javascript:void(0);" class="work-popup-close">FECHAR</a>
                                         <div class="margin-b-30">
-                                            <h3 class="margin-b-5">Art Of Coding</h3>
-                                            <span>Clean &amp; Minimalistic Design</span>
+                                            <h3 class="margin-b-5">Filipe de Sousa</h3>
+                                            <span>3º Semestre</span>
                                         </div>
                                         <div class="row">
                                             <div class="col-sm-8 work-popup-content-divider sm-margin-b-20">
                                                 <div class="margin-t-10 sm-margin-t-0">
-                                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                                                   <p>"Esse site foi de grande importância quando eu esquecia alguns detalhes sobre Java."</p>
                                                     <ul class="list-inline work-popup-tag">
-                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Strategy,</a></li>
-                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Implementation,</a></li>
-                                                        <li class="work-popup-tag-item"><a class="work-popup-tag-link" href="#">Credentials</a></li>
+
                                                     </ul>
                                                 </div>
                                             </div>
                                             <div class="col-sm-4">
                                                 <div class="margin-t-10 sm-margin-t-0">
-                                                    <p class="margin-b-5"><strong>Project Manager:</strong> Boris Becker</p>
-                                                    <p class="margin-b-5"><strong>Executive:</strong> Heike Macatsch</p>
-                                                    <p class="margin-b-5"><strong>Architect:</strong> Oliver Pocher</p>
-                                                    <p class="margin-b-5"><strong>Client:</strong> Keenthemes</p>
+                                                    <p class="margin-b-5"><strong>Curso:</strong> Estudante de Ensino Médio</p>
+                                                    <p class="margin-b-5"><strong>Cidade: </strong> Brasília</p>
+                                                    <p class="margin-b-5"><strong>Idade: </strong> 15 anos</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -621,7 +612,7 @@
                         <!-- Lista de Contato 1 - Júlio César S-->
                         <div class="col-sm-4 sm-margin-b-50">
                             <h3>Júlio César S<span class="text-uppercase margin-l-20">Desenvolvedor</span></h3>
-                            <p>Texto teste Texto teste Texto teste Texto teste Texto teste Texto teste Texto teste Texto teste Texto teste Texto teste </p>
+                            <p>Júlio César tem 19 anos, reside em Basília-DF e atualmente cursa o terceiro semestre do curso Sistemas de Informações no Uniprojeção.</p>
                             <ul class="list-unstyled contact-list">
                                 <li><i class="margin-r-10 color-base icon-call-out"></i> +55 61 99803 - 2236</li>
                                 <li><i class="margin-r-10 color-base icon-envelope"></i> jcesarsm17@gmail.com</li>
@@ -632,7 +623,7 @@
                         <!-- Lista de Contato 2 - Filipe de Sousa-->
                         <div class="col-sm-4 sm-margin-b-50">
                             <h3>Filipe de Sousa<span class="text-uppercase margin-l-20">Desenvolvedor</span></h3>
-                            <p>Texto teste Texto teste Texto teste Texto teste Texto teste Texto teste Texto teste Texto teste Texto teste Texto teste </p>
+                            <p>Filipe de Sousa tem 19 anos, reside em Basília-DF e atualmente cursa o terceiro semestre do curso Tecnólogo em Análise e Desenvolvimento de Sistemas no Uniprojeção.</p>
                             <ul class="list-unstyled contact-list">
                                 <li><i class="margin-r-10 color-base icon-call-out"></i> +55 61 99528 - 5271</li>
                                 <li><i class="margin-r-10 color-base icon-envelope"></i> filipeintatilo@gmail.com</li>
@@ -643,7 +634,7 @@
                         <!-- Lista de Contato 3 - Friends Code-->
                         <div class="col-sm-4 sm-margin-b-50">
                             <h3>Code Friends<span class="text-uppercase margin-l-20">Empresa</span></h3>
-                            <p>Texto teste Texto teste Texto teste Texto teste Texto teste Texto teste Texto teste Texto teste Texto teste Texto teste </p>
+                            <p>A empresa CodeFriends foi criada por dois amigos, Filipe de Sousa e Júlio César a fim de desenvolver o projeto final do terceiro semestre da matéria de Aplicações Web.</p>
                             <ul class="list-unstyled contact-list">
                                 <li><i class="margin-r-10 color-base icon-call-out"></i> +55 61 3084 - 7256</li>
                                 <li><i class="margin-r-10 color-base icon-envelope"></i> friendscode@gmail.com</li>
@@ -665,7 +656,7 @@
         <!-- Final de Contato -->
         <!--========== FINAL DA PÁGINA DE LAYOUT ==========-->
 
-        <!--========== FOOTER ==========-->
+       <!--========== FOOTER ==========-->
         <footer class="footer">
             <!-- Início dos Links -->
             <div class="section-seperator">
@@ -674,10 +665,12 @@
                         <div class="col-sm-2 sm-margin-b-30">
                             <!-- Lista -->
                             <ul class="list-unstyled footer-list">
-                                <li class="footer-list-item"><a href="#body">Home</a></li>
+                                <li class="footer-list-item"><a href="site-principal.php">Home</a></li>
+                                
+                                 <li class="footer-list-item"><a href="link-duvidas.html">Deixe sua dúvida/opnião</a></li>
                                 <!--<li class="footer-list-item"><a href="#about">Team</a></li>
-                                <li class="footer-list-item"><a href="#work">Credentials</a></li>-->
-                                <li class="footer-list-item"><a href="#contact">Contato</a></li>
+                                <li class="footer-list-item"><a href="#work">Credentials</a></li>
+                                <li class="footer-list-item"><a href="">Contato</a></li>-->
                             </ul>
                             <!-- Final da Lista -->
                         </div>
@@ -694,9 +687,8 @@
                         <div class="col-sm-3">
                             <!-- Lista -->
                             <ul class="list-unstyled footer-list">
-                                <li class="footer-list-item"><a href="link-pagina-duvidas.html">Deixe sua dúvida/opnião</a></li>
-                                <li class="footer-list-item"><a href="#">Política de Privacidade</a></li>
-                                <li class="footer-list-item"><a href="#">Termos &amp; Condições</a></li>
+                          
+ 
                             </ul>
                             <!-- Final da Lista -->
                         </div>
@@ -710,10 +702,10 @@
             <div class="content container">
                 <div class="row">
                     <div class="col-xs-6">
-                      <img class="footer-logo" src="images/logo-site.png" alt="Logo Code Friends">   <!-- POR MINHA LOGO AQUI -->
+                      <img class="footer-logo" src="images/logo-site-final.png" alt="Logo Code Friends">   <!-- POR MINHA LOGO AQUI -->
                     </div>
                     <div class="col-xs-6 text-right">
-                       <p class="margin-b-0"><a class="fweight-700" href="#contact">Code Friends</a></p>
+                       <p class="margin-b-0">Code Friends</p>
                     </div>
                 </div>
                 <!--// end row -->
@@ -745,7 +737,7 @@
         <script src="js/components/wow.min.js" type="text/javascript"></script>
         <script src="js/components/swiper.min.js" type="text/javascript"></script>
         <script src="js/components/masonry.min.js" type="text/javascript"></script>
-
+        
     </body>
     <!-- Final do BODY -->
 </html>

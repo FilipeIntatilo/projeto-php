@@ -1,3 +1,3 @@
 # projeto-php
 
-Autores: Filipe de Sousa e Júlio César .
+Autores: Júlio César Sousa Melo e Filipe de Sousa Lima Intátilo.
