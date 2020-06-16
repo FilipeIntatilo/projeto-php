@@ -2,10 +2,11 @@
 <!--Tecnologia em Análise e Desenvolvimento de Sistemas/Noturno-->
 <!-- //PARTE FILIPE-->
 <?php
-$nome_servidor = "localhost";
-$nome_usuario = "root";
-$senha = "";
-$nome_banco = "Banco_Projeto";
+$nome_servidor = "sql300.epizy.com";
+$nome_usuario = "epiz_26021651";
+$senha = "cEoyjuR9Oe";
+$nome_banco = "epiz_26021651_banco_projeto";
+
 // Criar conexão
 $conecta = new mysqli($nome_servidor, $nome_usuario, $senha, $nome_banco);
 // Verificar Conexão

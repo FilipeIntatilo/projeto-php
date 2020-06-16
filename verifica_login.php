@@ -3,10 +3,12 @@
 <!-- //PARTE FILIPE-->
 <?php
 session_start();
-$nome_servidor = "localhost";
-$nome_usuario = "root";
-$senha = "";
-$nome_banco = "Banco_Projeto";
+$nome_servidor = "sql300.epizy.com";
+$nome_usuario = "epiz_26021651";
+$senha = "cEoyjuR9Oe";
+$nome_banco = "epiz_26021651_banco_projeto";
+
+
 
 
 // Criar conexão
