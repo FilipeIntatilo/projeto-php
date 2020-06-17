@@ -15,13 +15,10 @@ $nome_banco = "epiz_26021651_banco_projeto";
 $conecta = new mysqli($nome_servidor, $nome_usuario, $senha, $nome_banco);
 
 // Verificar Conexão
-if ($conecta->connect_error) {
+if ($conecta->connect_error === TRUE) {
     die("Conexão falhou: " . $conecta->connect_error . "<br>");
 }
 echo "";
-
-$valor = 5;
-
 
 $email = isset($_POST['email'])?$_POST['email']:"";
 $senha = isset($_POST['senha'])?$_POST['senha']:"";
@@ -32,8 +29,8 @@ $resultado = $conecta->query($tenta_achar);
 if ($resultado->num_rows > 0) {
     $_SESSION['email'] = $email;
     $_SESSION['senha'] = $senha;
-
     header('location:site_Principal.php');
+    
 } else {
     session_unset(); //remove todas as variáveis de sessão
     session_destroy();
@@ -43,6 +40,6 @@ if ($resultado->num_rows > 0) {
            </script>";
 }
 mysqli_set_charset($conecta, "utf8");
-$conecta->close();
+
 ?>
 

@@ -23,7 +23,7 @@
                 </script>";
 
         }
-        $logado = $_SESSION['login'];
+        $logado = $_SESSION['email'];
         ?>
         
         <title>Code Friends</title>
