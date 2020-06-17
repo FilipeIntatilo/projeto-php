@@ -3,27 +3,32 @@
 <!-- //PARTE FILIPE-->
 <?php
 session_start();
+
+
 $nome_servidor = "sql300.epizy.com";
 $nome_usuario = "epiz_26021651";
 $senha = "cEoyjuR9Oe";
 $nome_banco = "epiz_26021651_banco_projeto";
 
 
-
-
 // Criar conexão
 $conecta = new mysqli($nome_servidor, $nome_usuario, $senha, $nome_banco);
+
 // Verificar Conexão
 if ($conecta->connect_error) {
     die("Conexão falhou: " . $conecta->connect_error . "<br>");
 }
 echo "";
 
+$valor = 5;
+
+
 $email = isset($_POST['email'])?$_POST['email']:"";
 $senha = isset($_POST['senha'])?$_POST['senha']:"";
 
-$tenta_achar = "SELECT nome FROM usuario WHERE email='$email' AND senha='$senha' ";
-$resultado = $conecta->query($tenta_achar);
+$tenta_achar = "SELECT * FROM usuario WHERE email='$email' AND senha='$senha' ";
+
+$resultado = $conecta->query($tenta_achar);  
 if ($resultado->num_rows > 0) {
     $_SESSION['email'] = $email;
     $_SESSION['senha'] = $senha;

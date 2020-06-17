@@ -8,10 +8,26 @@
     <head>  <!-- Início do HEAD -->
         
         <meta charset="utf-8"/>
+        
+         <?php 
+        session_start();//Inicia uma nova sessão ou resume uma sessão existente
+
+
+
+        if((!isset ($_SESSION['email']) == true) and (!isset ($_SESSION['senha']) == true))
+        {
+            session_unset();//remove todas as variáveis de sessão
+            echo "<script>
+                alert('Esta página só pode ser acessada por usuário logado');
+                window.location.href = 'index.html';
+                </script>";
+
+        }
+        $logado = $_SESSION['login'];
+        ?>
+        
         <title>Code Friends</title>
 
-        
-        
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta content="width=device-width, initial-scale=1" name="viewport"/>
         <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
